@@ -3,8 +3,6 @@ use std::{error::Error, process::Output};
 use ndarray::{array, Array1, Array2};
 use rand::{thread_rng, Rng};
 
-/// 简单全连接神经网络  
-
 #[derive(Debug)]
 pub struct NN {
     pub w1: f64,
